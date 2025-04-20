@@ -18,3 +18,16 @@
 .h-dscreen {
   height: 100dvh;
 }
+
+@supports (height: 100dvh) {
+  .min-h-safe {
+    min-height: 100dvh;
+  }
+}
+
+/* 그 외 브라우저에선 fallback */
+@supports not (height: 100dvh) {
+  .min-h-safe {
+    min-height: 100vh;
+  }
+}

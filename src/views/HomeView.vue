@@ -1,11 +1,11 @@
 <template>
   <!-- 📄 본문: 남은 공간 차지 -->
-  <header class="pb-4 pt-0">
+  <header class="p-4">
     <h1 class="text-brand text-xl font-bold select-none">다이다이 다슥아 - A703</h1>
   </header>
-  <div class="max-w-screen-md mx-auto">
+  <div class="mx-auto p-4">
     <div class="space-y-4">
-      <h3 class="text-xl font-bold mb-4">칠공삼 메신저</h3>
+      <h3 class="text-lg font-semibold mb-2">칠공삼 메신저</h3>
       <Card>
         <div class="text-gray-800 font-semibold flex items-center">
           <p class="text-2xl mr-2">💌</p>
@@ -19,13 +19,13 @@
         </div></Card
       >
 
-      <h3 class="text-xl font-bold mt-8 mb-4">JIRA 스토리 미리보기</h3>
+      <h3 class="text-lg font-semibold mt-8 mb-2">JIRA 스토리 미리보기</h3>
       <Card>
         <JiraToDo></JiraToDo>
       </Card>
 
-      <h3 class="text-xl font-bold mt-8 mb-4">협업 도구 바로가기</h3>
-      <div class="bg-white rounded-xl px-4 py-8 space-y-8">
+      <h3 class="text-lg font-semibold mt-8 mb-2">협업 도구 바로가기</h3>
+      <div class="bg-white rounded-xl px-4 py-8 space-y-8 border border-zinc-200">
         <div class="flex items-center">
           <img
             src="https://www.venturesquare.net/wp-content/uploads/2020/06/notion.png"
